@@ -5,6 +5,9 @@ const adminRoutes = require("./routes/admin");
 
 const app = express();
 
+app.set("view engine", "ejs");
+console.log(app.get("view engine"));
+
 app.use("/libs", express.static("node_modules"));
 app.use("/static", express.static("public"));
 
