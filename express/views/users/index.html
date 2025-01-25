@@ -7,7 +7,108 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Anasayfa</h1>
-    <img src="/static/images/resim1.jpg" alt="resim1" />
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+      <div class="container">
+        <a href="/" class="navbar-brand">blogApp</a>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="/blogs" class="nav-link">Blog Listesi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt3">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="list-group">
+            <a href="" class="list-group-item list-group-item-action active"
+              >Web Geliştirme</a
+            >
+            <a href="" class="list-group-item list-group-item-action"
+              >Mobil Uygulama</a
+            >
+            <a href="" class="list-group-item list-group-item-action"
+              >Veri Analizi</a
+            >
+            <a href="" class="list-group-item list-group-item-action"
+              >Programlama</a
+            >
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h1 class="h3">Anasayfa</h1>
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-md-3">
+                <img
+                  src="/static/images/resim1.jpg"
+                  class="img-fluid"
+                  alt="resim1"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Komple uygulamalı web geliştirme kursu
+                  </h5>
+                  <p class="card-text">
+                    Sıfırdan ileri seviyeye 'Web Geliştirme': Html, Css, Sass,
+                    Flexbox, Bootstrap, Javascript, Angular, JQuery, Asp.Net
+                    Mvc&Core Mvc
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-md-3">
+                <img
+                  src="/static/images/resim2.jpg"
+                  class="img-fluid"
+                  alt="resim2"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Python ile Sıfırdan İleri Seviye Python Programlama
+                  </h5>
+                  <p class="card-text">
+                    Sıfırdan İleri Seviye Python Dersleri.Veritabanı,Veri
+                    Analizi,Bot Yazımı,Web Geliştirme(Django)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-md-3">
+                <img
+                  src="/static/images/resim3.jpg"
+                  class="img-fluid"
+                  alt="resim3"
+                />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Sıfırdan İleri Seviye Modern Javascript Dersleri ES7+
+                  </h5>
+                  <p class="card-text">
+                    Modern javascript dersleri ile (ES6 & ES7+) Nodejs, Angular,
+                    React ve VueJs için sağlam bir temel oluşturun.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
